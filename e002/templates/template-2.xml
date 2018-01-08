@@ -1,0 +1,6 @@
+<pirates>
+  <line>{{ a }}</line>
+  <line>{{ b }}</line>
+  <line>{{ c }}</line>
+  <line>{{ b }}</line>
+</pirates>
