@@ -1,8 +1,10 @@
-# PYTHON EXAMPLES
+# Python Examples
 
 Random Python examples and code snippets when learning Python.
 
 ## Setup
+
+Note that in VirtualBox setup venv can't be used as it can't create the neccessary links.
 
 Versions:
 * Lubuntu 22.04 LTS
