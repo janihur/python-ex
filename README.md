@@ -2,6 +2,8 @@
 
 Random Python examples and code snippets when learning Python.
 
+* `server.py` - very simple HTTP server for logging requests. Downloaded from [mdonkers/server.py](https://gist.github.com/mdonkers/63e115cc0c79b4f6b8b3a6b797e485c7).
+
 ## Setup
 
 Note that in VirtualBox setup venv can't be used as it can't create the neccessary links.
