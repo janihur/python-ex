@@ -41,10 +41,10 @@ Python 3.10.6
 
 How to compile a Python script before execution:
 ```
-(.venv)$ python -m py_compile script.py && python script.py
+(.venv)$ python -m py_compile <SCRIPT> && python <SCRIPT>
 ```
 
 How to run a Python script with a debugger:
 ```
-(.venv)$ python -m pdb script.py
+(.venv)$ python -m pdb <SCRIPT>
 ```
