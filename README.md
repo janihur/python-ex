@@ -50,3 +50,12 @@ How to run a Python script with a debugger:
 ```
 (.venv)$ python -m pdb <SCRIPT>
 ```
+
+## How to reload a module in REPL
+
+Use [`importlib.reload()`](https://docs.python.org/3/library/importlib.html#importlib.reload):
+```
+>>> import <MODULE>
+>>> import importlib
+>>> importlib.reload(<MODULE>)
+```
