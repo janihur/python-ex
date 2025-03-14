@@ -1,0 +1,5 @@
+*.pyz
+*.dist-info/
+build/
+jinja2/
+markupsafe/
