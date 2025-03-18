@@ -1,5 +1,7 @@
 # Python Examples
 
+Currently I'm working with version [3.10](https://devguide.python.org/versions/).
+
 Random Python examples and code snippets when learning Python.
 
 * `e*` - subdirectories of more "complex" examples that might also need their own virtual environment.
@@ -11,7 +13,7 @@ Random Python examples and code snippets when learning Python.
 Python package example how to create a standalone Python applications for easier delivery with:
 
 * [pyinstaller](https://pyinstaller.org/en/stable/)
-  * TODO: not tried yet
+  * TODO: not tried yet as zipapp was good enough for me atm.
   * Packages also Python interpreter.
   * Packages are operating system specific.
   * A separate package.

@@ -1,0 +1,4 @@
+Data in text file TWO.
+Kiwis
+Mangos
+Pine Apples

@@ -1,0 +1,4 @@
+Data in text file ONE.
+Apples
+Bananas
+Oranges
