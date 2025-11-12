@@ -51,6 +51,10 @@ python3 program1.pyz
 python3 program2.pyz
 ```
 
+## `e004`
+
+How to hide transparent dependency, so that the users (module `user`) of `modb` (module b) don't have to import `moda` (module a). 
+
 ## Virtual Environment 101
 
 Guides:
