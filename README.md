@@ -55,6 +55,39 @@ python3 program2.pyz
 
 How to hide transparent dependency, so that the users (module `user`) of `modb` (module b) don't have to import `moda` (module a). 
 
+## `e005`
+
+Python [unit testing](https://en.wikipedia.org/wiki/Unit_testing) basics with:
+* [pytest](https://pytest.org/) - 3rd party testing framework (standard library alternative is [unittest](https://docs.python.org/3/library/unittest.html))
+* [doctest](https://docs.python.org/3.10/library/doctest.html) - test examples embedded in [docstrings](https://peps.python.org/pep-0257/)
+* [coverage.py](https://coverage.readthedocs.io/) - test coverage
+* [pytest-cov](https://pypi.org/project/pytest-cov/) - pytest plugin for coverage.py
+
+Test layout and test discovery implements one possible set of best practices described in [Good Integration Practices](https://docs.pytest.org/en/stable/explanation/goodpractices.html).
+
+[How to parametrize fixtures and test functions](https://docs.pytest.org/en/stable/how-to/parametrize.html#).
+
+Activate/setup virtual environment:
+```
+cd e005/
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+How to run tests:
+```shell
+# run doctests with python
+python3 -m doctest --verbose src/intseqs.py
+# run doctests with pytest
+pytest --doctest-modules
+# run doctests with pytest + test coverage
+pytest src --doctest-modules --cov=src 
+# run doctests and unit test with pytest + test coverage
+pytest src test --doctest-modules --cov=src --cov-context=test
+```
+
+Options can be set in `pytest.toml` [configuration file](https://docs.pytest.org/en/stable/reference/customize.html).
+
 ## Virtual Environment 101
 
 Guides:
